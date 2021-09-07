@@ -15,7 +15,7 @@ const getMeal = searchMeal => {
             while (elements.length > 0) {
                 elements[0].parentNode.removeChild(elements[0]);
             }
-            const mealDetails = document.getElementsByClassName('meal-details');
+            const mealDetails = document.getElementsByClassName('ingredients-list');
             while (mealDetails.length > 0) {
                 mealDetails[0].parentNode.removeChild(mealDetails[0]);
             }
