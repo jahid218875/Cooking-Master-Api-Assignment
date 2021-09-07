@@ -1,0 +1,40 @@
+#meal-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+    text-align: center;
+}
+
+.meal-box {
+    margin: 20px 0;
+}
+
+.meal-box img {
+    width: 250px;
+}
+
+.meal-box h4 {
+    margin-top: 5px;
+}
+
+#meal-details {
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+.ingredients-list {
+    background-color: white;
+    width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.ingredients-list h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.ingredients-list img {
+    width: 400px;
+    border-radius: 10px;
+}
